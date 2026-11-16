@@ -273,20 +273,43 @@ body {
 }
 
 .texto-descricao {
-  font-size: 1rem; color: #4b5563; margin: 0 auto 2rem auto;
-  max-width: 36rem; line-height: 1.625;
+  font-size: 1rem; 
+  color: #4b5563; 
+  margin: 0 auto 2rem auto;
+  max-width: 36rem; 
+  line-height: 1.625;
 }
 @media (min-width: 768px) { .texto-descricao { margin-left: 0; margin-right: 0; font-size: 1.125rem; } }
 
 /* Selos e Pílulas */
-.pilulas-caracteristicas { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin-bottom: 2rem; }
+.pilulas-caracteristicas { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 0.75rem; 
+  margin-bottom: 2rem; }
 @media (min-width: 768px) { .pilulas-caracteristicas { justify-content: flex-start; } }
 
 .item-pilula {
-  background-color: #ffffff; color: var(--marca-magenta-escuro); font-weight: 600;
-  padding: 0.5rem 1rem; border-radius: 0.75rem; font-size: 0.875rem;
-  border: 1px solid #fbcfe8; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  display: flex; align-items: center; gap: 0.375rem;
+  background-color: #ffffff; 
+  color: var(--marca-magenta-escuro); 
+  font-weight: 600;
+  padding: 0.5rem 1rem; 
+  border-radius: 0.75rem; 
+  font-size: 0.885rem;
+  border: 1px solid #fbcfe8; 
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  display: flex; 
+  align-items: center; 
+  gap: 0.375rem;
+}
+
+.pilulas-linhas{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  
+  margin-bottom: 2rem; 
 }
 
 .ponto { width: 0.5rem; height: 0.5rem; border-radius: 50%; }
@@ -330,6 +353,7 @@ body {
   filter: blur(4px);
 
 }
+
 
 .cartao-principal {
   position: relative; 
@@ -444,6 +468,12 @@ body {
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.cocadas-linhas{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--marca-magenta);
 }
 
 @media (min-width: 640px) { .container-sabores { padding-left: 1.5rem; padding-right: 1.5rem; } }
