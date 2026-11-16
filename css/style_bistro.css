@@ -87,7 +87,7 @@ body {
   border-radius: 50%;
   fill: var(--marca-magenta);
 }
-
+@media (min-width: 640px) { .marca { font-size: 1.875rem; } }
 .texto-marca-wrapper {
   display: flex;
   flex-direction: column;
