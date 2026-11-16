@@ -67,11 +67,8 @@ body {
   width: 100%;
 }
 .icone-marca-wrapper {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background: linear-gradient(to top right, var(--marca-rosa-claro), #fbcfe8);
-  border: 2px solid var(--marca-magenta);
+  width: 5rem;
+  height: 5rem;  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,9 +81,10 @@ body {
   transform: scale(1.05);
 }
 
-.svg-marca {
+.marca {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
   fill: var(--marca-magenta);
 }
 
@@ -757,6 +755,12 @@ body {
 }
 @media (min-width: 640px) {
   .logo-redonda-sobre { width: 9rem; height: 9rem; }
+}
+
+.logo-redonda-sobre img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 
 .texto-logo-sobre {
