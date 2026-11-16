@@ -307,9 +307,9 @@ body {
 .pilulas-linhas{
   display: flex; 
   flex-wrap: wrap; 
-  justify-content: center; 
-  
+  justify-content: center;
   margin-bottom: 2rem; 
+
 }
 
 .ponto { width: 0.5rem; height: 0.5rem; border-radius: 50%; }
