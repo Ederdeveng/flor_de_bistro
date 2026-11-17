@@ -315,6 +315,7 @@ body {
 }
 .pilulas-linhas{
   width: 100%;
+  background-color: rgba(245, 181, 5, 0.1);
   text-align: center;
   padding: 0.4rem;
   border: 2.5px solid #fbcfe8;
