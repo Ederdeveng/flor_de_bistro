@@ -329,6 +329,7 @@ body {
 .ponto-esmeralda { background-color: #10b981; }
 .ponto-ambar { background-color: #f59e0b; }
 .ponto-rosa { background-color: #ec4899; }
+.ponto-magenta-escuro {background-color: #880e4f;}
 
 /* Botões da Seção Destaque */
 .botoes-acao { display: flex; flex-direction: column; gap: 1rem; justify-content: center; }
